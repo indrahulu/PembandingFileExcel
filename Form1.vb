@@ -4,7 +4,7 @@
     Private section As String = My.Application.Info.Version.ToString
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        lblLaporan.Text = ""
+        lblLaporan.Text = "https://github.com/indrahulu/PembandingFileExcel"
         txtFileLama.Text = GetSetting(appName, section, "FileLama", "")
         txtFileBaru.Text = GetSetting(appName, section, "FileBaru")
         txtSheetName.Text = GetSetting(appName, section, "Sheet")
